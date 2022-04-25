@@ -1,0 +1,76 @@
+.loginBlock {
+  width: 100%;
+  height: 90vh;
+  background-color: #fdedf4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginBlock article {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  min-height: calc(100vh - 136px);
+  flex-direction: column;
+  background-color: #fff;
+}
+.loginBlock article .imgBlock img {
+  width: 400px;
+  height: 160px;
+  object-fit: cover;
+}
+.loginBlock article form {
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.loginBlock article form .heading b {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.loginBlock article form .form-control input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d4d5d9;
+  font-size: 14px;
+  line-height: 16px;
+  height: auto;
+  color: #282c3f;
+}
+.loginBlock article form .terms-conditions {
+  color: rgba(40, 44, 63, 0.8);
+  font-size: 14px;
+}
+.loginBlock article form .terms-conditions a {
+  color: #ff3c6f;
+  font-weight: 600;
+  text-decoration: none;
+}
+.loginBlock article form .form-control button {
+  width: 100%;
+  display: block;
+  padding: 12px;
+  background-color: #ff3f6c;
+  line-height: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+.loginBlock article form .form-control button:hover {
+  background-color: #ff3f6cca;
+}
+.loginBlock article form .registerLink {
+  font-size: 14px;
+  color: #282c3fcc;
+}
+.loginBlock article form .registerLink a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff3f6c;
+}

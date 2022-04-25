@@ -1,0 +1,99 @@
+.profileMenu {
+  background-color: #fff;
+  min-width: 294px;
+  min-height: 400px;
+  position: absolute;
+  top: 87px;
+  left: -100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+  text-transform: capitalize;
+  box-shadow: 0 2px 10px;
+  border-radius: 2px;
+  z-index: 99;
+}
+.profileMenu .welcomeBlock,
+.primaryLinks,
+.secondaryLinks,
+.profileLinks {
+  display: flex;
+  flex-direction: column;
+}
+.welcomeBlock {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+}
+.welcomeBlock h6 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.welcomeBlock p {
+  height: 14px !important;
+  font-size: 14px;
+  color: #282c3f;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 10px;
+}
+.welcomeBlock a {
+  display: inline-block !important;
+  padding: 10px !important;
+  width: 50%;
+  margin: 10px 0;
+  border: 1px solid #eaeaec;
+  border-radius: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff3f6c !important;
+  font-weight: bold !important ;
+}
+.welcomeBlock a:hover {
+  border-color: #ff3f6c;
+}
+.primaryLinks {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+}
+.primaryLinks a {
+  font-size: 14px !important;
+  margin: 5px 0;
+  padding: 0 !important;
+}
+.primaryLinks a span {
+  background-color: #ff3f6c;
+  color: #fff;
+  width: 25px;
+  height: 75px;
+  border-radius: 2px;
+  border: 1px solid #ff3f6c;
+  font-weight: 900;
+  font-size: 12px;
+  padding: 0 5px 3px;
+}
+.primaryLinks a:hover {
+  font-weight: bold !important;
+}
+.secondaryLinks a {
+  font-size: 14px !important;
+  margin: 5px 0;
+  padding: 0 !important;
+}
+.secondaryLinks a:hover {
+  font-weight: bold !important;
+}
+.secondaryLinks {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+}
+.profileLinks a {
+  font-size: 14px !important;
+  margin: 5px 0;
+  padding: 0 !important;
+}
+.profileLinks a:hover {
+  font-weight: bold !important;
+}

@@ -1,0 +1,179 @@
+#navbarBlock {
+  width: 100%;
+  height: 85px;
+  background-color: #fff;
+  box-shadow: 0 1px 8px #afafaf;
+}
+#navbarBlock article {
+  width: 90%;
+  height: 85px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logoBlock {
+  flex-basis: 10%;
+  align-items: center;
+}
+.menuBlock {
+  flex-basis: 40%;
+}
+.logoBlock a img {
+  width: 100%;
+  padding: 20px;
+}
+.searchBlock {
+  flex-basis: 40%;
+}
+.authMenuBlock {
+  flex-basis: 10%;
+}
+.menuBlock nav > ul,
+.authMenuBlock ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.menuBlock nav ul li {
+  position: relative;
+  padding: 0;
+}
+.menuBlock nav > ul > li > a,
+.authMenuBlock ul li a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 30px 18px;
+  position: relative;
+  font-size: 15px;
+}
+.menuBlock ul li a sup {
+  color: deeppink;
+  font-size: 12px;
+  margin: 0 5px;
+  font-weight: bold;
+  position: relative;
+  top: -5px;
+}
+.searchBlock main {
+  display: flex;
+  align-items: center;
+}
+
+.searchBlock main span:nth-child(2) {
+  width: 100%;
+  display: block;
+}
+.searchBlock main input {
+  width: 90%;
+  padding: 13px 40px;
+  border-radius: 3px;
+  border: 1px solid #efefef;
+  background-color: #efefef;
+  text-transform: capitalize;
+}
+.searchBlock main svg {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-weight: lighter;
+  color: #666;
+}
+.authMenuBlock > ul > li a {
+  font-size: 13px !important;
+  text-transform: capitalize !important;
+  font-weight: normal !important;
+}
+.authMenuBlock ul > li {
+  text-align: center;
+  position: relative;
+  padding: 17px 0;
+}
+
+.dropdown {
+  background-color: #fff;
+  position: absolute;
+  top: 7.5vh;
+  left: -11px;
+  min-width: 1016px;
+  min-height: 500px;
+  display: none;
+}
+.dropdown aside {
+  display: flex;
+  align-items: stretch;
+  min-height: 500px;
+}
+.dropdown aside div {
+  flex: 1;
+}
+.dropdown aside div:nth-child(odd) {
+  background-color: #fff;
+}
+.dropdown aside div:nth-child(even) {
+  background-color: #efefef6e;
+}
+.dropdown aside div ul {
+  list-style-type: none;
+  padding: 20px;
+}
+.dropdown ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #222;
+  font-size: 13px;
+}
+.dropdown ul li a:hover {
+  color: #111;
+  font-weight: bold;
+}
+.dropdown ul li:first-child a {
+  color: #ee5f73;
+  font-weight: bold;
+}
+.dropdown aside .indian-wear {
+  color: #ee5f73 !important;
+  font-weight: bold;
+}
+
+.menuBlock > nav > ul > li:hover .dropdown {
+  display: block;
+  z-index: 99;
+}
+.menuBlock > nav > ul > li > a:hover {
+  border-bottom: 3px solid deeppink;
+}
+.dropdown ul .hrLine {
+  margin: 20px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.pink {
+  color: #ee5f73 !important;
+  font-weight: bold;
+}
+.authMenuBlock .profileDropdown {
+  display: none;
+}
+.authMenuBlock li:hover .profileDropdown {
+  display: block;
+}
+.authMenuBlock li:hover {
+  border-bottom: 3px solid #ee5f73;
+}
+.orange {
+  color: #f26a10 !important;
+  font-weight: bold !important;
+}
+.orangeBorder > a:hover {
+  border-bottom: 3px solid #f26a10 !important;
+}
+.beigeBorder > a:hover {
+  border-bottom: 3px solid #f2c210 !important;
+}
+.beige {
+  color: #f2c210 !important;
+  font-weight: bold !important;
+}

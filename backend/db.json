@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "fname": "abc",
+      "lname": "xyz",
+      "phone": "9876543210",
+      "email": "abc@example.com",
+      "password": "admin@123",
+      "gender": "male",
+      "isLoggedIn": false
+    }
+  ],
+  "products": [
+    {
+      "product_id": "123",
+      "product_type": "electronics"
+    }
+  ]
+}
